@@ -17,7 +17,7 @@ router.get('/fetchlatestquote', function(req, res, next) {
   var options = {
     uri : 'https://rest.coinapi.io/v1/quotes/current',
     method : 'GET',
-    headers : { 'X-CoinAPI-Key' : '6CB748F6-1F37-4A18-85F1-D0DE44559047' }
+    headers : { 'X-CoinAPI-Key' : '5TB748F6-8F37-4818-85F1-D0DE44559048' }
   };
   request(options, function (error, response) {
     if (error) throw error;
